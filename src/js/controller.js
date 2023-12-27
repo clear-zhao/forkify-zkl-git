@@ -7,7 +7,7 @@ import paginationView from './views/paginationView.js';
 import addrecipeView from './views/addRecipeView.js';
 
 import 'core-js/stable';
-// import 'regenerator-runtime/runtime';
+import 'regenerator-runtime/runtime';
 import { API_URL } from './config.js';
 import bookmarkView from './views/bookmarksView.js';
 
