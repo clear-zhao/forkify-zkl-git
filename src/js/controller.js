@@ -11,9 +11,9 @@ import 'regenerator-runtime/runtime';
 import { API_URL } from './config.js';
 import bookmarkView from './views/bookmarksView.js';
 
-if (module.hot) {
-  module.hot.accept();
-}
+// if (module.hot) {
+//   module.hot.accept();
+// }
 
 // https://forkify-api.herokuapp.com/v2
 
