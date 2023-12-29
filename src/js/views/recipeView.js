@@ -1,5 +1,5 @@
 import icons from 'url:../../img/icons.svg';
-// import { Fraction } from 'fractional';
+import { Fraction } from 'fractional';
 import View from './View';
 
 class RecipeView extends View {
@@ -8,7 +8,7 @@ class RecipeView extends View {
   _message = '';
 
   _generateMarkupIngredient(ing) {
-    var Fraction = require('fractional').Fraction;
+    // var Fraction = require('fractional').Fraction;
     return `<li class="recipe__ingredient">
               <svg class="recipe__icon">
                 <use href="${icons}#icon-check"></use>
